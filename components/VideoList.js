@@ -90,6 +90,7 @@ class VideoList extends Component {
             this.setState({ query });
             this.fetchData();
           }}
+          value={this.state.query}
         />
 
         <FlatList
